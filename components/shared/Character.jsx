@@ -11,20 +11,20 @@ const Character = () => {
       <div className="bg-black w-[15rem] m-9  border-l-2 border-y border-white/50 gradient-color flex relative p-[2px] ">
         <p className="p-medium-18 text-white ml-3">Suara Galaksi</p>
       </div>
-      <div className="flex gap-6 md:flex-row flex-col justify-center items-center">
+      <div className="wrapper grid grid-cols-1 gap-5 md:grid-cols-4 sm:grid-cols-2 2xl:gap-0">
         {characterHsr.map((item) => {
           return (
             <Link
             href={item.route}
+            key={item.id}
             >
               <div
                 className="block relative p-0.5 bg-no-repeat  bg-[length:100%_100%] md:max-w-[24rem] cursor-pointer opacity-70 hover:opacity-100 object-cover bg-center"
                 style={{
                   backgroundImage: `url(${item.backgroundImg})`,
-                  width: 230,
-                  height: 480,
+                  width: 200,
+                  height: 450,
                 }}
-                key={item.id}
               >
                 <div className="relative z-2 flex flex-col bottom-0 top-[20rem] p-[2.4rem] pointer-events-none opacity-100">
                   <h5 className="p-medium-16 text-white text-center">

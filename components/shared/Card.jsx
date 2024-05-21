@@ -10,13 +10,13 @@ const Card = ({ imgUrl, date, label,route }) => {
         <Link
         href={route}
         >
-          <div className="bg-gray-700 cursor-pointer rounded-tr-[3.3rem] shadow-blue-900/50 hover:shadow-2xl border-2 hover:border-red-600 shadow-lg">
+          <div className="bg-gray-700 cursor-pointer rounded-tr-[1.5rem] shadow-blue-900/50 hover:shadow-2xl border-2 hover:border-red-600 shadow-lg">
             <div className="flex flex-col gap-3 relative">
               <Image
                 src={imgUrl}
                 width={1000}
                 height={1000}
-                className=" rounded-tr-[3.3rem] inset-0 opacity-90 transition-opacity  hover:opacity-100 "
+                className=" rounded-tr-[3.3rem] inset-0 opacity-90 transition-opacity  hover:opacity-100 border-b-2 "
                 alt="banner"
               />
               <div className="p-3 text-white">

@@ -35,7 +35,7 @@ const About = ({ imgUrl, label, date, route }) => {
             </CarouselItem>
             <CarouselItem className="md:p-5 p-2  md:basis-1/2 lg:basis-1/3">
               <Card
-                imgUrl="/assets/about/banner1.png "
+                imgUrl="/assets/about/banner2.png "
                 label="Event Live Streaming Discord Quest Honkai: Star Rail versi 2.2"
                 date="9-5-2024"
                 route="https://hsr.hoyoverse.com/id-id/news/123652?utm_source=hsrofficialweb&utm_medium=fab&utm_campaign=button"
@@ -43,7 +43,7 @@ const About = ({ imgUrl, label, date, route }) => {
             </CarouselItem>
             <CarouselItem className="md:p-5 p-2  md:basis-1/2 lg:basis-1/3">
               <Card
-                imgUrl="/assets/about/banner1.png "
+                imgUrl="/assets/about/banner3.jpg "
                 label="Event Live Streaming Discord Quest Honkai: Star Rail versi 2.2"
                 date="9-5-2024"
                 route="https://hsr.hoyoverse.com/id-id/news/123652?utm_source=hsrofficialweb&utm_medium=fab&utm_campaign=button"
@@ -51,15 +51,7 @@ const About = ({ imgUrl, label, date, route }) => {
             </CarouselItem>
             <CarouselItem className="md:p-5 p-2  md:basis-1/2 lg:basis-1/3">
               <Card
-                imgUrl="/assets/about/banner1.png "
-                label="Event Live Streaming Discord Quest Honkai: Star Rail versi 2.2"
-                date="9-5-2024"
-                route="https://hsr.hoyoverse.com/id-id/news/123652?utm_source=hsrofficialweb&utm_medium=fab&utm_campaign=button"
-              />
-            </CarouselItem>
-            <CarouselItem className="md:p-5 p-2  md:basis-1/2 lg:basis-1/3">
-              <Card
-                imgUrl="/assets/about/banner1.png "
+                imgUrl="/assets/about/banner4.jpg "
                 label="Event Live Streaming Discord Quest Honkai: Star Rail versi 2.2"
                 date="9-5-2024"
                 route="https://hsr.hoyoverse.com/id-id/news/123652?utm_source=hsrofficialweb&utm_medium=fab&utm_campaign=button"

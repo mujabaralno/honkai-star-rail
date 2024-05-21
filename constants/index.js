@@ -1,17 +1,21 @@
 export const headersLink = [
     {
+        id: '0',
         label: 'Home',
         route: '/'
     },
     {
+        id: '1',
         label: 'Berita',
         route: '/berita'
     },
     {
+        id: '2',
         label: 'Karakter',
         route: '/karakter'
     },
     {
+        id: '3',
         label: 'Top-Up',
         route: '/topup'
     },
@@ -101,15 +105,20 @@ export const characterHsr = [
 
 export const downloadGames = [
     {
+        id: '0',
         imgUrl: '/assets/download/ps555.png'
     },
     {
+        id: '1',
         imgUrl: '/assets/download/windows.png'
     },{
+        id: '2',
         imgUrl: '/assets/download/appstore.png'
     },{
+        id: '3',
         imgUrl: '/assets/download/googleplay.png'
     },{
+        id: '4',
         imgUrl: '/assets/download/epicgames.png'
     },
 ]

@@ -19,7 +19,7 @@ const NavItems = () => {
             className={`${isActive ? 'text-white' : 'text-white/50 hover:text-white'}
             flex-center p-medium-18 whitespace-nowrap
             `}
-            key={Link.route}
+            key={link.id}
             >
                 <Link
                 href={link.route}
